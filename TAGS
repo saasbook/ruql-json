@@ -1,0 +1,103 @@
+
+CODE_OF_CONDUCT.md,69
+In the interest of fostering an open and welcoming environment,5,55
+
+bin/setup,10
+IFS=3,38
+
+ruql-json.gemspec,83
+lib 2,1
+  spec.bindir bindir34,1413
+  spec.require_paths require_paths36,1517
+
+lib/ruql/json/json.rb,283
+module Ruql1,0
+  class Json2,12
+    attr_reader :outputoutput5,49
+    def initialize(7,74
+    def self.allowed_optionsallowed_options15,254
+    def render_quiz19,313
+    def render_multiple_choice(31,712
+    def answers_to_json_array(39,935
+    def render_fill_in(52,1268
+
+lib/ruql/json/version.rb,52
+module Ruql1,0
+  class JSON2,12
+    VERSION 3,25
+
+Gemfile,17
+git_source(3,31
+
+Gemfile.lock,20
+      builder 5,48
+
+.git/config,30
+	repositoryformatversion 2,7
+
+.git/description,24
+Unnamed repository;1,0
+
+.git/hooks/pre-rebase.sample,16
+publish=18,587
+
+.git/hooks/applypatch-msg.sample,18
+commitmsg=13,367
+
+.git/hooks/fsmonitor-watchman.sample,288
+my ($version, $time)($version, $time19,598
+my $git_work_tree;git_work_tree31,867
+my $retry retry40,1047
+sub launch_watchman 44,1083
+	my $pid pid46,1106
+	my $query query63,1824
+	my $response response73,2054
+	my $json_pkg;json_pkg80,2333
+	my $o o90,2469
+	local $,112,3284
+
+.git/hooks/pre-receive.sample,12
+		i=22,520
+
+.git/hooks/prepare-commit-msg.sample,24
+COMMIT_MSG_FILE=23,857
+
+.git/hooks/pre-applypatch.sample,18
+precommit=12,313
+
+.git/hooks/pre-push.sample,15
+remote=22,770
+
+.git/hooks/update.sample,78
+refname=28,929
+allowunannotated=46,1315
+zero=63,1896
+	newrev_type=65,1977
+
+.travis.yml,0
+
+.git/hooks/post-update.sample,0
+
+.git/hooks/pre-commit.sample,0
+
+.git/hooks/commit-msg.sample,0
+
+.git/info/exclude,0
+
+.git/HEAD,0
+
+lib/ruql/json.rb,0
+
+.gitignore,0
+
+Rakefile,0
+
+README.md,0
+
+spec/ruql/json_spec.rb,0
+
+spec/spec_helper.rb,0
+
+bin/console,0
+
+.rspec,0
